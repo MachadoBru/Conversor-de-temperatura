@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de Temperatura - BruMachado</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <body><div class="container">
+      <h1 class="page-title">Conversor de Temperatura</h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="logo2" alt="">
+      <p class="page-subtitle">Faça aqui a conversão de Celsius para Farenheit ou Kelvin <br><br> Selecione a escala desejada | Insira o valor da temperatura em Celsius | Obtenha o valor convertido</p>
+      <img src= "https://previews.123rf.com/images/fosgen/fosgen1611/fosgen161100027/67755989-thermometer-and-three-temperature-units-degrees-celsius-fahrenheit-kelvin-.jpg" class="page-logo" alt="">
+    </div>
+    <img src= "https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    <div class="corpo">
+    <select name="convertaTemperatura" id="escalaDeTemperatura">
+      <optgroup>
+        <option value="Fahrenheit" id="fahrenheit">Fahrenheit</option>
+        <option value="Kelvin" id="kelvin">Kelvin</option>
+      </optgroup>
+      <input type=number name="temperaturaEmCelsius" id="tempCelsius" size=1 </input>
+    <button type="submit" onclick="CalculaConversao()">Converter</button>
+   </div> 
+      <h2 class="resultado" id="resultadoFinal"></h2>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
